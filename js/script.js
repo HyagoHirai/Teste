@@ -1,5 +1,9 @@
 var myBankBalance = 2;
-var output = "Hyago";
+var output = "";
+var hyago = "hyago";
+var fernando = "fernando";
+var lucas = "lucas";
+var alvaro = "alvaro"
 
 // Do the 'for' loop
 for (myBankBalance = 0; myBankBalance <= 10; myBankBalance++) {
