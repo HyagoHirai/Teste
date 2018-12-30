@@ -1,4 +1,4 @@
-var myBankBalance = 0;
+var myBankBalance = 1;
 var output = "";
 
 // Do the 'for' loop
