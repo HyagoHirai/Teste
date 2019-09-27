@@ -5,4 +5,4 @@ deploy-dev:
   image: alpine
   stage: deploy-dev
   script:
-    - echo "Teste"
+    - echo "Teste 2"
