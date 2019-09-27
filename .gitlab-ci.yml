@@ -5,5 +5,6 @@ deploy-dev:
   image: alpine
   stage: deploy-dev
   script:
+    - apk add git
     - git clone https://github.com/HyagoHirai/Teste.git
     - ls
