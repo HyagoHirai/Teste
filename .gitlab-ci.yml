@@ -5,4 +5,5 @@ deploy-dev:
   image: alpine
   stage: deploy-dev
   script:
-    - echo "Teste 2"
+    - git clone https://github.com/HyagoHirai/Teste.git
+    - ls
