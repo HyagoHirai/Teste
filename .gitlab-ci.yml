@@ -1,0 +1,8 @@
+stages:
+  - deploy-dev
+
+deploy-dev:
+  image: alpine
+  stage: deploy-dev
+  script:
+    - echo "Teste"
