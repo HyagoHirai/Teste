@@ -7,6 +7,7 @@ deploy-dev:
   script:
     - apk add git
     - git clone https://github.com/HyagoHirai/Teste.git
+    - cd Teste
     - git config --global user.name "Hyago Yukio Azevedo Hirai"
     - git config --global user.email "hyahirai@hotmail.com"
     - git remote rename origin old-origin
