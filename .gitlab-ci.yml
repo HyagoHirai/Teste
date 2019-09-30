@@ -10,6 +10,6 @@ deploy-dev:
     - git config --global user.name "Hyago Yukio Azevedo Hirai"
     - git config --global user.email "hyahirai@hotmail.com"
     - git remote rename origin old-origin
-    - git remote add origin https://Hyago%20Yukio%20Azevedo%20Hirai:GLMessi123lilo@gitlab.com/hyahirai/Teste.git
+    - git remote add origin https://Hyago%20Yukio%20Azevedo%20Hirai:NmQ-cvMdTnkBk8_mHVug@gitlab.com/hyahirai/Teste.git
     - git push -u origin --all
     - git push -u origin --tags
