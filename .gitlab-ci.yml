@@ -8,4 +8,5 @@ deploy-dev:
     - apk add git
     - git clone https://github.com/HyagoHirai/Teste.git
     - git branch
+    - git checkout $CI_COMMIT_REF_NAME
     - echo "$CI_COMMIT_REF_NAME"
